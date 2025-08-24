@@ -1,0 +1,22 @@
+{
+  "name": "muzichenko_music_bot",
+  "version": "1.0.0",
+  "description": "Telegram-бот Muzichenko.music: замовлення пісень, портфоліо, контакти",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "node scripts/validate-config.js",
+    "test": "node scripts/validate-config.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

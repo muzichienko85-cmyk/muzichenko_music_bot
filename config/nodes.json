@@ -1,0 +1,46 @@
+[
+  {
+    "id": "start",
+    "type": "message",
+    "name": "Start",
+    "message": "👋 Вітаємо у Muzichenko.music!\n\nОберіть дію нижче 👇",
+    "buttons": [
+      { "text": "🎵 Замовити пісню", "callback": "order_song" },
+      { "text": "📂 Портфоліо", "callback": "portfolio" },
+      { "text": "📬 Контакти", "callback": "contact" }
+    ]
+  },
+  {
+    "id": "order_song",
+    "type": "message",
+    "name": "Order Song",
+    "message": "🎼 Напишіть нам, яку пісню ви хочете створити.\nВкажіть жанр, тему, мову та додаткові побажання.",
+    "buttons": [
+      { "text": "🔙 Назад", "callback": "start" },
+      { "text": "🏠 Головне меню", "callback": "start" }
+    ],
+    "next": ""
+  },
+  {
+    "id": "portfolio",
+    "type": "message",
+    "name": "Portfolio",
+    "message": "🎧 Перегляньте наші треки на платформах:\n\nSpotify: https://spoti.fi/andriy_sokolove\nYouTube: https://youtube.com/@andriysokolove\nTikTok: https://tiktok.com/@andriy_sokolo",
+    "buttons": [
+      { "text": "🔙 Назад", "callback": "start" },
+      { "text": "🏠 Головне меню", "callback": "start" }
+    ],
+    "next": ""
+  },
+  {
+    "id": "contact",
+    "type": "message",
+    "name": "Contact",
+    "message": "📬 Напишіть нам прямо сюди або приєднуйтесь до каналу:\n\nTelegram: https://t.me/sokolove_andriy",
+    "buttons": [
+      { "text": "🔙 Назад", "callback": "start" },
+      { "text": "🏠 Головне меню", "callback": "start" }
+    ],
+    "next": ""
+  }
+]
